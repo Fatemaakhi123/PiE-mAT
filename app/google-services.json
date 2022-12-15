@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "573489322618",
+    "firebase_url": "https://first-33b1d-default-rtdb.firebaseio.com",
+    "project_id": "first-33b1d",
+    "storage_bucket": "first-33b1d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573489322618:android:34a12ce59ee4aff3b139c3",
+        "android_client_info": {
+          "package_name": "com.akhiabidashik.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573489322618-s6i5hrubihhj1objfvie5j7retgonmop.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBitignsQl41VVYqVi9J35r2LBfl2XHrMM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573489322618-s6i5hrubihhj1objfvie5j7retgonmop.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FourthActivity"
+    android:orientation="vertical"
+    android:layout_marginTop="40dp"
+    android:padding="30dp"
+    >
+
+    <TextView
+        android:id="@+id/textViewTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="|Here's the searchbar to know the relationship of different units.Let's explore the units(Length,Temperature,Volume(liquid),Weight).Units of Volume(liquid),Length and Weight are same except instead of metre in case of Weight 'gram' is used and in case of Volume(liquid) 'litre' is used.The format is - For example:'Metre-to-Centimetre'(Spelling should be correct,Internet Connection should be always ON)|"
+        android:textSize="16sp"
+        android:padding="8dp"
+        />
+    <LinearLayout
+        android:id="@+id/linearTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/textViewTwo"
+        android:background="@drawable/three_color">
+
+        <AutoCompleteTextView
+            android:id="@+id/textSearchTwo"
+            android:layout_width="match_parent"
+            android:hint=" Type Something....."
+            android:drawableLeft="@drawable/ic_baseline_search_24"
+            android:layout_height="70dp"
+
+
+            />
+        <ListView
+            android:id="@+id/listViewTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textSearchTwo"
+            android:padding="30dp"
+
+            />
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adViewtwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_below="@+id/linearTwo"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>

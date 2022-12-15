@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/preview"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Explore All International System of Units,Physical Quantities and Conversion of them"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="50dp"
+        android:id="@+id/dif"
+        >
+
+
+        <Button
+            android:id="@+id/buttonone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/purple_500"
+            android:text="Different System of Units" />
+
+        <Button
+            android:id="@+id/buttontwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Conversion Of Units"
+            android:backgroundTint="@color/purple_500"/>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animation_viewone"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/bicycle"
+            tools:ignore="MissingConstraints"
+            android:layout_below="@+id/dif">
+
+        </com.airbnb.lottie.LottieAnimationView>
+
+    </LinearLayout>
+
+
+</LinearLayout>
